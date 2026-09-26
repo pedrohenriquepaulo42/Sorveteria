@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Doce Neve | Sorveteria</title>
+
+    <meta name="description" content="Doce Neve — sorvetes artesanais, milk-shakes e sobremesas deliciosas.">
+
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+       HEADER
+  ========================== -->
+
+    <header>
+
+        <div class="container">
+
+            <nav>
+
+                <a href="#" class="logo">
+                    Doce <span>Neve</span> 🍦
+                </a>
+
+                <div class="nav-links">
+
+                    <a href="#inicio">Início</a>
+
+                    <a href="#sabores">Sabores</a>
+
+                    <a href="#sobre">Sobre nós</a>
+
+                    <a href="#contato">Contato</a>
+
+                </div>
+
+                <button class="cart-button" id="openCart">
+                    🛒 Carrinho
+
+                    <span id="cartCount">
+                        0
+                    </span>
+
+                </button>
+
+                <button class="menu-btn" id="menuBtn">
+                    ☰
+                </button>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================
+       CONTEÚDO
+  ========================== -->
+
+    <main id="inicio">
+
+
+        <!-- HERO -->
+
+        <section class="hero">
+
+            <div class="container hero-grid">
+
+
+                <div class="hero-content">
+
+                    <span class="eyebrow">
+                        🍓 Feito com carinho
+                    </span>
+
+
+                    <h1>
+                        Felicidade em
+                        <span>cada colherada.</span>
+                    </h1>
+
+
+                    <p>
+                        Gelatos artesanais, ingredientes selecionados
+                        e sabores que transformam qualquer dia
+                        em um momento especial.
+                    </p>
+
+
+                    <div class="hero-actions">
+
+                        <a href="#sabores" class="btn">
+                            Ver sabores
+                        </a>
+
+
+                        <button class="link-button" id="heroCart">
+                            🛒 Ver carrinho →
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ILUSTRAÇÃO -->
+
+                <div class="ice-cream-art">
+
+                    <div class="blob"></div>
+
+                    <div class="scoop scoop-yellow"></div>
+
+                    <div class="scoop scoop-pink"></div>
+
+                    <div class="scoop scoop-green"></div>
+
+                    <div class="cone"></div>
+
+                    <span class="decoration decoration-1">
+                        🍓
+                    </span>
+
+                    <span class="decoration decoration-2">
+                        ✨
+                    </span>
+
+                    <span class="decoration decoration-3">
+                        🍒
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+         SABORES
+    ========================== -->
+
+        <section id="sabores" class="products-section">
+
+            <div class="container">
+
+
+                <div class="section-head">
+
+                    <span class="eyebrow">
+                        🍨 Nosso cardápio
+                    </span>
+
+                    <h2>
+                        Os favoritos da casa
+                    </h2>
+
+                    <p>
+                        Escolha seus sabores favoritos e monte
+                        seu pedido.
+                    </p>
+
+                </div>
+
+
+                <div class="cards">
+
+
+                    <!-- MORANGO -->
+
+                    <article class="card">
+
+                        <div class="flavor-icon pink-bg">
+                            🍓
+                        </div>
+
+
+                        <h3>
+                            Morango Cremoso
+                        </h3>
+
+
+                        <p>
+                            Morango fresco com uma textura
+                            supercremosa.
+                        </p>
+
+
+                        <div class="product-bottom">
+
+                            <strong class="price">
+                                R$ 9,90
+                            </strong>
+
+
+                            <button class="add-cart" data-name="Morango Cremoso" data-price="9.90" data-icon="🍓">
+                                + Adicionar
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- CHOCOLATE -->
+
+                    <article class="card">
+
+                        <div class="flavor-icon yellow-bg">
+                            🍫
+                        </div>
+
+
+                        <h3>
+                            Chocolate Belga
+                        </h3>
+
+
+                        <p>
+                            Chocolate intenso para quem
+                            não abre mão do clássico.
+                        </p>
+
+
+                        <div class="product-bottom">
+
+                            <strong class="price">
+                                R$ 10,90
+                            </strong>
+
+
+                            <button class="add-cart" data-name="Chocolate Belga" data-price="10.90" data-icon="🍫">
+                                + Adicionar
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- MANGA -->
+
+                    <article class="card">
+
+                        <div class="flavor-icon green-bg">
+                            🥭
+                        </div>
+
+
+                        <h3>
+                            Manga Tropical
+                        </h3>
+
+
+                        <p>
+                            Leve, refrescante e feito
+                            com manga selecionada.
+                        </p>
+
+
+                        <div class="product-bottom">
+
+                            <strong class="price">
+                                R$ 9,90
+                            </strong>
+
+
+                            <button class="add-cart" data-name="Manga Tropical" data-price="9.90" data-icon="🥭">
+                                + Adicionar
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PISTACHE -->
+
+                    <article class="card">
+
+                        <div class="flavor-icon pistachio-bg">
+                            💚
+                        </div>
+
+
+                        <h3>
+                            Pistache
+                        </h3>
+
+
+                        <p>
+                            Cremoso, delicado e cheio
+                            de sabor.
+                        </p>
+
+
+                        <div class="product-bottom">
+
+                            <strong class="price">
+                                R$ 12,90
+                            </strong>
+
+
+                            <button class="add-cart" data-name="Pistache" data-price="12.90" data-icon="💚">
+                                + Adicionar
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- NUTELLA -->
+
+                    <article class="card">
+
+                        <div class="flavor-icon chocolate-bg">
+                            🍪
+                        </div>
+
+
+                        <h3>
+                            Cookies & Creme
+                        </h3>
+
+
+                        <p>
+                            Creme gelado com pedacinhos
+                            crocantes de cookies.
+                        </p>
+
+
+                        <div class="product-bottom">
+
+                            <strong class="price">
+                                R$ 11,90
+                            </strong>
+
+
+                            <button class="add-cart" data-name="Cookies & Creme" data-price="11.90" data-icon="🍪">
+                                + Adicionar
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- BAUNILHA -->
+
+                    <article class="card">
+
+                        <div class="flavor-icon vanilla-bg">
+                            🍦
+                        </div>
+
+
+                        <h3>
+                            Baunilha
+                        </h3>
+
+
+                        <p>
+                            O clássico que combina
+                            com tudo.
+                        </p>
+
+
+                        <div class="product-bottom">
+
+                            <strong class="price">
+                                R$ 8,90
+                            </strong>
+
+
+                            <button class="add-cart" data-name="Baunilha" data-price="8.90" data-icon="🍦">
+                                + Adicionar
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+         SOBRE
+    ========================== -->
+
+        <section id="sobre" class="about">
+
+            <div class="container about-grid">
+
+
+                <div class="about-box">
+
+                    <span class="eyebrow">
+                        Nossa história
+                    </span>
+
+
+                    <h2>
+                        Um pouquinho de amor
+                        em forma de sorvete.
+                    </h2>
+
+
+                    <p>
+                        Na Doce Neve, acreditamos que bons
+                        momentos começam com ingredientes
+                        de qualidade e terminam com um sorriso.
+                    </p>
+
+
+                    <p>
+                        Nossos sorvetes são produzidos
+                        artesanalmente, em pequenos lotes,
+                        para entregar sabor e cremosidade
+                        em cada pedido.
+                    </p>
+
+
+                    <div class="features">
+
+                        <div class="feature">
+                            🍓 Ingredientes frescos
+                        </div>
+
+                        <div class="feature">
+                            🥄 Produção artesanal
+                        </div>
+
+                        <div class="feature">
+                            💛 Feito com carinho
+                        </div>
+
+                        <div class="feature">
+                            🌱 Opções leves
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="about-text">
+
+                    <h2>
+                        Começamos pequenos.
+                        <span>Sonhamos grande.</span>
+                    </h2>
+
+
+                    <p>
+                        Uma sorveteria de bairro criada para
+                        reunir famílias, amigos e apaixonados
+                        por sobremesas.
+                    </p>
+
+
+                    <p>
+                        Cada receita é preparada pensando
+                        naquele momento especial depois
+                        da primeira colherada.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+         CONTATO
+    ========================== -->
+
+        <section id="contato">
+
+            <div class="container">
+
+                <div class="cta">
+
+                    <span>
+                        🍦 Doce Neve
+                    </span>
+
+
+                    <h2>
+                        Que tal um sorvete hoje?
+                    </h2>
+
+
+                    <p>
+                        Monte seu pedido e finalize pelo WhatsApp.
+                    </p>
+
+
+                    <button class="btn white-btn" id="ctaCart">
+                        🛒 Abrir meu carrinho
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+       FOOTER
+  ========================== -->
+
+    <footer>
+
+        <div class="container footer-grid">
+
+            <div>
+
+                <div class="footer-logo">
+                    Doce Neve 🍦
+                </div>
+
+                <p>
+                    Felicidade em cada colherada.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <strong>
+                    Horário
+                </strong>
+
+                <p>
+                    Segunda a domingo<br>
+                    12h às 22h
+                </p>
+
+            </div>
+
+
+            <div class="social">
+
+                <strong>
+                    Redes sociais
+                </strong>
+
+                <a href="#">
+                    Instagram
+                </a>
+
+                <a href="#">
+                    Facebook
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =========================
+       FUNDO DO CARRINHO
+  ========================== -->
+
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+
+    <!-- =========================
+       CARRINHO
+  ========================== -->
+
+    <aside class="cart" id="cart">
+
+
+        <!-- HEADER CARRINHO -->
+
+        <div class="cart-header">
+
+            <div>
+
+                <span>
+                    Seu pedido
+                </span>
+
+                <h2>
+                    🛒 Carrinho
+                </h2>
+
+            </div>
+
+
+            <button class="close-cart" id="closeCart">
+                ✕
+            </button>
+
+        </div>
+
+
+        <!-- ITENS -->
+
+        <div class="cart-items" id="cartItems">
+
+            <div class="empty-cart">
+
+                <div class="empty-icon">
+                    🍦
+                </div>
+
+                <h3>
+                    Seu carrinho está vazio
+                </h3>
+
+                <p>
+                    Escolha um sabor delicioso
+                    para começar.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- FOOTER -->
+
+        <div class="cart-footer">
+
+
+            <div class="delivery-info">
+
+                🚚
+                <span>
+                    Pedido preparado com carinho
+                </span>
+
+            </div>
+
+
+            <div class="total-row">
+
+                <span>
+                    Total
+                </span>
+
+                <strong id="cartTotal">
+                    R$ 0,00
+                </strong>
+
+            </div>
+
+
+            <button class="checkout-button" id="checkout">
+                💬 Finalizar pelo WhatsApp
+            </button>
+
+
+            <button class="clear-button" id="clearCart">
+                🗑️ Limpar carrinho
+            </button>
+
+        </div>
+
+    </aside>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
