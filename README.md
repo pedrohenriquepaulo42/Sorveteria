@@ -59,7 +59,7 @@ Troque pelo número desejado usando o formato:
 Por exemplo:
 
 ```javascript
-const phone = "5511987654321";
+const phone = "5511950182995";
 ```
 
 Não coloque `+`, espaços, parênteses ou hífen.
